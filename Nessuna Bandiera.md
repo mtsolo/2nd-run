@@ -9,8 +9,8 @@ La- | Si- | La- Do | Sol
 La- | Sol | La- | Sol
 La- | Si- | La- | Sol
 # Ritornello
-Si b | Fa | Re Mi- | Re
-La- | Si- | Fa
+Si- | Do | Re Mi- | Re
+La- | Si- | La- | Sol
 # Strofa
 ## Parte A
 La- | Sol | La- | Sol
@@ -19,5 +19,5 @@ La- | Si- | La- | Sol
 La- | Si- | La- Do | Mi-
 La- | Si- | La- Do | Sol
 # Ritornello
-Si b | Fa | Re- | La-
-Sol- | La- | Do Re- | Do
+Si- | Do | Re Mi- | Re
+La- | Si- | La- | Sol
