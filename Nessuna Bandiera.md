@@ -10,7 +10,7 @@ La- | Sol | La- | Sol
 La- | Si- | La- | Sol
 # Ritornello
 Si- | Do | Re Mi- | Re
-La- | Si- | La- | Sol
+La- | Do- | A- Fa7 | Sol
 # Strofa
 ## Parte A
 La- | Sol | La- | Sol
@@ -20,4 +20,4 @@ La- | Si- | La- Do | Mi-
 La- | Si- | La- Do | Sol
 # Ritornello
 Si- | Do | Re Mi- | Re
-La- | Si- | La- | Sol
+La- | Do- | A- Fa7 | Sol
