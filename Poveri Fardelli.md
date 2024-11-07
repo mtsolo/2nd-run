@@ -13,7 +13,7 @@ Si-7 | Re7+ | La | % Sibdim
 Si-7 | Re7+ | La | % Sibdim
 Si-7 | Misus11 | La | %
 Do#-7 | Mi7+ | Si | % Dodim
-Si-7 | La13 | Si | %
+Do#-7 | La13 | Si | %
 # Strumentale
 Do#-7 | Mi7+ | Si | % Dodim
 Do#-7 | Mi7+ | Si | % Dodim
