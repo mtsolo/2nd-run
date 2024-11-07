@@ -25,4 +25,8 @@ Re7+ | Do#-7 | Si-7 | %
 Re7+ | Do#-7 | Mi/Fa# | % Fa#/Mi
 Re7+ | Do#-7 | Sol13 | Fa#7+
 Si-7 | Do#-7 | Re-7 | Sol9
-Re9+
+# Outro
+Re9+ | % | Si-7 | %
+Fa#-7 | % | Mi6 | %
+Re9+ | % | Si-7 | %
+LYLE MAYS
