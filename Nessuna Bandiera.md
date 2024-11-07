@@ -21,5 +21,5 @@ La- | Si- | La- Do | Sol
 La- | Sol | La- | Sol
 La- | Si- | La- | Sol
 # Ritornello
-Fa6 | Do | Re Mi- | Re
+Fa6 | Do | Re Mi- | Si-
 La- | Do- | A- Fa7 | Sol
