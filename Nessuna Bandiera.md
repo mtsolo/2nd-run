@@ -7,7 +7,7 @@ La- | Si- | La- Do9+ | Mi-
 La- | Si- | La- Do | Sol
 # Ritornello
 Fa6 | Do | Re Mi- | Re
-La- | Si- | Fa | Si- Sol Mi- Do
+La- | Si- | Fa | Fa9+ Mib9+ Sib9+ Lab9+
 # Strofa
 ## Parte A
 La- | Sol | La- | Sol6
