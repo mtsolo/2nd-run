@@ -7,9 +7,7 @@ La- | Si- | La- Do9+ | Mi-
 La- | Si- | La- Do | Sol
 # Ritornello
 Fa6 | Do | Re Mi- | Re
-La- | Do- | La- Fa7 | Sol
-## Uscita (intro Canned Heat)
-Si- Sol | Mi- Do
+La- | Si- | Fa | Si- Sol Mi- Do
 # Strofa
 ## Parte A
 La- | Sol | La- | Sol6
