@@ -20,7 +20,7 @@ Do#-7 | Mi7+ | Si | % Dodim
 Do#-7 | Mi7+ | Si | % Dodim
 Do#-7 | Mi7+ | Si | % Dodim
 # Ritornello
-Do#-7 | Mi7+ | Si | % Dodim
+Do#-7 | Mi7+ | Si | % Dodim _# https://youtu.be/r2fOY-1Vnuo?t=75_
 Do#-7 | Mi7+ | La Sibdim | Si Dodim
 Do#-7 | Mi7+ | Si | % Dodim
 Do#-7 | La13
