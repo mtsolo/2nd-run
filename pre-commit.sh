@@ -1,6 +1,7 @@
 #!/bin/sh
 
-echo "Generating sheets index..."
+echo "Generating indexes..."
 ls sheets | grep 'abc$' > sheets/index.txt
-echo "Staging index file..."
+ls appunti | grep 'md$' > appunti/index.txt
+echo "Staging index files..."
 git add sheets/index.txt
