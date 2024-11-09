@@ -22,10 +22,12 @@
             document.body.append(script)
             dom_loaded() // hack to force abc2svg to re-parse the document
         } else {
-            const files = (await (await fetch('index.txt')).text()).trim().split("\n")
+            const files = (await (await fetch("index.txt")).text()).trim().split("\n")
+            const ul = document.createElement("ul")
             for (const file of files) {
-                document.body.innerHTML += `<li><a href="?file=${file}">${file}</a></li>`
+                ul.innerHTML += `<li><a href="?file=${file}">${file}</a></li>`
             }
+            document.body.append(ul)
         }
     </script>
 </head>
