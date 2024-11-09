@@ -18,9 +18,11 @@
 			document.body.innerHTML = marked.parse(await (await fetch(file)).text(), { breaks: true })
 		} else {
 			const files = (await (await fetch('index.txt')).text()).trim().split("\n")
+			const ul = document.createElement("ul")
 			for (const file of files) {
-				document.body.innerHTML += `<li><a href="?file=${file}">${file}</a></li>`
+				ul.innerHTML += `<li><a href="?file=${file}">${file}</a></li>`
 			}
+			document.body.append(ul)
 		}
 	</script>
 </head>
