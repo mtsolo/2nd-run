@@ -1,36 +1,18 @@
 <!DOCTYPE html>
-<html lang="it">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MT/solo 2nd run</title>
-    <style>
-        svg {
-            display: block;
-        }
-    </style>
-    <script src="abc2svg/abcweb-1.js"></script>
-    <script src="abc2svg/snd-1.js"></script>
-    <script type="module">
-        const params = new URL(import.meta.url).searchParams
-        const file = params.get("file")
-        if (file) {
-            const script = document.createElement("script")
-            script.type = "text/vnd.abc"
-            script.innerHTML = await (await fetch(`sheets/${file}`)).text()
-            document.body.append(script)
-            dom_loaded() // hack to force abc2svg to re-parse the document
-        } else {
-            const files = (await (await fetch('sheets/index.txt')).text()).trim().split("\n")
-            for (const file of files) {
-                document.body.innerHTML += `<li><a href="?file=${file}">${file}</a></li>`
-            }
-        }
-    </script>
 </head>
-
 <body>
+    <ul>
+        <li>
+            <a href="appunti/">Appunti</a>
+        </li>
+        <li>
+            <a href="spartiti/">Spartiti</a>
+        </li>
+    </ul>
 </body>
-
 </html>
