@@ -5,22 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spartiti - MT/solo 2nd run</title>
-    <style>
-        svg {
-            display: block;
-        }
-    </style>
-    <script src="abc2svg/abcweb-1.js"></script>
-    <script src="abc2svg/snd-1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/abcjs/dist/abcjs-basic-min.js"></script>
     <script type="module">
         const params = new URL(import.meta.url).searchParams
         const file = params.get("file")
         if (file) {
-            const script = document.createElement("script")
-            script.type = "text/vnd.abc"
-            script.innerHTML = await (await fetch(file)).text()
-            document.body.append(script)
-            dom_loaded() // hack to force abc2svg to re-parse the document
+            ABCJS.renderAbc(document.body, await (await fetch(file)).text())
         } else {
             const files = (await (await fetch("index.txt")).text()).trim().split("\n")
             const ul = document.createElement("ul")
